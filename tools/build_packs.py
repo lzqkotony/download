@@ -10,3 +10,7 @@ for name,src in [('Cogito-Resources-JE.zip',root/'java'),('Cogito-Resources-BE.m
         for p in sorted(src.rglob('*')):
             if p.is_file(): z.write(p,p.relative_to(src))
     print(out)
+# Geyser requires application/zip; release asset aliases are still octet-stream, so
+# keep a raw-repository .zip copy as well.
+shutil.copyfile(dist/'Cogito-Resources-BE.mcpack', dist/'Cogito-Resources-BE.zip')
+print(dist/'Cogito-Resources-BE.zip')
