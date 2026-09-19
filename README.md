@@ -10,8 +10,8 @@ Java 与 Bedrock/Geyser 双端资源包，为 Cogito 的「金枝」提供金色
 资源包 Release 可通过 GitHub 代理访问：
 
 ```text
-https://v4.gh-proxy.com/https://github.com/lzqkotony/download/releases/download/v1.0.1/Cogito-Resources-JE.zip
-https://v4.gh-proxy.com/https://raw.githubusercontent.com/lzqkotony/download/v1.0.1/dist/Cogito-Resources-BE.zip
+https://gh-proxy.com/https://github.com/lzqkotony/download/releases/download/v1.0.1/Cogito-Resources-JE.zip
+https://gh-proxy.com/https://raw.githubusercontent.com/lzqkotony/download/v1.0.1/dist/Cogito-Resources-BE.zip
 ```
 
 ## 构建
