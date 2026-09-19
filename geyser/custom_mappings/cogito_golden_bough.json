@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "items": {
+    "minecraft:dead_bush": [
+      {
+        "type": "definition",
+        "model": "cogito:golden_bough",
+        "bedrock_identifier": "cogito:golden_bough",
+        "display_name": "金枝",
+        "bedrock_options": {
+          "icon": "cogito:golden_bough",
+          "creative_category": "items",
+          "display_handheld": true
+        }
+      }
+    ]
+  }
+}

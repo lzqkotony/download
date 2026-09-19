@@ -1,0 +1,30 @@
+name: Release Resource Packs
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build packs
+        run: python3 tools/build_packs.py
+      - name: Create SHA-1 checksums
+        run: |
+          cd dist
+          sha1sum Cogito-Resources-* > SHA1SUMS.txt
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/Cogito-Resources-*
+            dist/SHA1SUMS.txt
+          name: Cogito Resource Packs ${{ github.ref_name }}
+          body: |
+            Java + Bedrock resource packs for Cogito.
+            Java: Cogito-Resources-JE.zip
+            Bedrock/Geyser: Cogito-Resources-BE.mcpack
+          generate_release_notes: true

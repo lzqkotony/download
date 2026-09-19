@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Cogito Resources BE",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "cogito:golden_bough": {
+      "textures": "textures/items/golden_bough"
+    }
+  }
+}

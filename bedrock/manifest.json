@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Cogito golden bough resource pack",
+    "name": "Cogito Resources BE",
+    "uuid": "5da34c5e-cb14-4530-8e88-2bb3b60cbc6c",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Cogito golden bough resources",
+      "type": "resources",
+      "uuid": "ec2257f2-6aea-4293-93c4-1fb53fe4e58f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
