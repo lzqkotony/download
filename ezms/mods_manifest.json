@@ -1,0 +1,70 @@
+{
+  "game": "1.21.11",
+  "neoforge": "21.11.48",
+  "generated": "2026-10-29T03:44:47.427Z",
+  "items": [
+    {
+      "source": "modrinth",
+      "slug": "sophisticated-core",
+      "version": "1.21.11-1.5.2.2348",
+      "filename": "sophisticatedcore-1.21.11-1.5.2.2348.jar",
+      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/IkmqeDh0/sophisticatedcore-1.21.11-1.5.2.2348.jar",
+      "size": 1922197,
+      "sha256": "e296e4657fdc2f578a2f5e73c8ae55c0d101755b7a165c783cfae2782a5cb55a"
+    },
+    {
+      "source": "modrinth",
+      "slug": "sophisticated-backpacks",
+      "version": "1.21.11-3.26.3.2168",
+      "filename": "sophisticatedbackpacks-1.21.11-3.26.3.2168.jar",
+      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/36YO13Ox/sophisticatedbackpacks-1.21.11-3.26.3.2168.jar",
+      "size": 1260100,
+      "sha256": "1feeea464680e9c8da06170bd028f8930049e4260151dfa9c06fc0cc7751bd6b"
+    },
+    {
+      "source": "modrinth",
+      "slug": "randomtp",
+      "version": "9.0.2+1.21.11",
+      "filename": "randomtp-9.0.2+1.21.11-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/rfrPFqYK/versions/C8G4zzxO/randomtp-9.0.2%2B1.21.11-neoforge.jar",
+      "size": 818685,
+      "sha256": "374ca7f50173b05fee4d419f6c7ec8081899491612679d6c25e1166f19d34487"
+    },
+    {
+      "source": "modrinth",
+      "slug": "aerial-hell",
+      "version": "0.7.8",
+      "filename": "aerialhell-0.7.8_neoforge1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/hvaVU41U/versions/gVFDOQhX/aerialhell-0.7.8_neoforge1.21.11.jar",
+      "size": 76253857,
+      "sha256": "2e5370146ac4de0da0d272baa0178d3e9e5c7d0b89b7d4b5e7773b46d1c02860"
+    },
+    {
+      "source": "modrinth",
+      "slug": "geckolib",
+      "version": "5.4.5",
+      "filename": "geckolib-neoforge-1.21.11-5.4.5.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/FpONDAt3/geckolib-neoforge-1.21.11-5.4.5.jar",
+      "size": 790538,
+      "sha256": "76bbd3e5b528f2b1c9aca6fd19253792c2741cf588055b5e8a03b0cca1d9e6c0"
+    },
+    {
+      "source": "curseforge",
+      "slug": "world-bosses",
+      "version": "1.21.11-2.0.2",
+      "filename": "world-bosses-neoforge-1.21.11-2.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/9258/418/world-bosses-neoforge-1.21.11-2.0.2.jar",
+      "size": 1829283,
+      "sha256": "5db86d6d6f04cf7be254f1a15aaaa12acef9f8bbdb61c20b66f8c260eba9e1ff"
+    },
+    {
+      "source": "github",
+      "slug": "tacz-renovated",
+      "version": "1.1.8+neoforge.1.21.11.R3-hotfix4",
+      "filename": "tacz-1.1.8+neoforge.1.21.11.R3-hotfix4.jar",
+      "url": "https://github.com/q14433686-arch/TaCZ_Renovated/releases/download/1.21.11%E7%9A%84mod%E6%96%87%E4%BB%B6_R3_HOTFIX-4/tacz-1.1.8%2Bneoforge.1.21.11.R3-hotfix4.jar",
+      "size": 56693486,
+      "sha256": "747e3d0465b355f0d1379b83e8ef35d312297085eec1f29f8d60b0ccdb45551e"
+    }
+  ]
+}

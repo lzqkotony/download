@@ -1,0 +1,53 @@
+name: EZ-MS Client Pack
+
+on:
+  push:
+    tags:
+      - 'ezms-client-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build client pack
+        run: |
+          set -euo pipefail
+          python3 ezms/build_client_pack.py "${GITHUB_REF_NAME}"
+
+      - name: Show output
+        run: |
+          ls -la build/
+          cat build/*.sha256
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: EZ-MS 客户端整合包 ${{ github.ref_name }}
+          body: |
+            EZ-MS 官方客户端整合包（Minecraft 1.21.11 + NeoForge 21.11.48）。
+
+            本次新增模组：
+            - Sophisticated Backpacks（精妙背包）+ Sophisticated Core
+            - [UNOFFICIAL] TaCZ: Renovated（枪械，内置默认枪包）
+            - World Bosses（世界 Boss）+ GeckoLib
+            - RandomTP（/rtp 随机传送）
+            - Aerial Hell（天空维度）
+
+            下载后解压，用包内 Plain Craft Launcher 安装即可；服务器地址见 servers.dat。
+          files: |
+            build/EZ-MS-client-*.zip
+            build/EZ-MS-client-*.zip.sha256
+          fail_on_unmatched_files: true
