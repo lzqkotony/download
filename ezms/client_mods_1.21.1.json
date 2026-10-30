@@ -1,9 +1,9 @@
 {
   "game": "1.21.1",
   "neoforge": "21.1.265",
-  "generated": "2026-10-30T03:48:59.736Z",
+  "generated": "2026-10-30T04:09:53.980Z",
   "note": "EZ-MS 1.21.1 客户端必备 mod（client_side=required）。解压后把 mods 文件夹内容放进 1.21.1 NeoForge 21.1.265 客户端的 mods 目录。",
-  "count": 21,
+  "count": 23,
   "items": [
     {
       "filename": "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
@@ -151,6 +151,20 @@
       "sha1": "",
       "size": 31997,
       "source": "curseforge"
+    },
+    {
+      "filename": "claimmyland-2.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/Q66Lrr3S/versions/znzzIEfT/claimmyland-neoforge-1.21.1-2.8.0.jar",
+      "sha1": "b20c8f8203fe88d26ac8037e67c8a42589c3bd88",
+      "size": 865465,
+      "source": "modrinth"
+    },
+    {
+      "filename": "gottschcore-2.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/Pww2zMWB/versions/F2Uvbpzb/gottschcore-neoforge-1.21.1-2.6.0.jar",
+      "sha1": "8f4b4fdb5624ce71ef36810607c8251874024a9d",
+      "size": 221448,
+      "source": "modrinth"
     }
   ]
 }
