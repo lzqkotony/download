@@ -3,7 +3,7 @@ name: EZ-MS Client Pack
 on:
   push:
     tags:
-      - 'ezms-client-*'
+      - 'ezms-client-2026*'
   workflow_dispatch:
 
 permissions:
