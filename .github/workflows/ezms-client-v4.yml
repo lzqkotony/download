@@ -1,0 +1,61 @@
+name: EZ-MS 1.21.1 Client v4 (Optimized)
+
+on:
+  push:
+    tags:
+      - 'ezms-v4-client-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download base r2 pack
+        run: |
+          mkdir -p build
+          curl -sSL --retry 3 -o build/r2.zip \
+            https://github.com/lzqkotony/download/releases/download/ezms-client-1.21.1-20261030-r2/EZ-MS-client-mods-1.21.1-20261030-r2.zip
+          ls -la build/r2.zip
+
+      - name: Build v4 packs
+        env:
+          PACK_VERSION: '20261030-v4'
+        run: python3 ezms/v4-pack/build_v4.py
+
+      - name: Show output
+        run: |
+          ls -la dist/
+          cat dist/*.sha256
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: EZ-MS 1.21.1 客户端 v4（优化版）
+          body: |
+            EZ-MS 官方服务器（Minecraft 1.21.1 + NeoForge 21.1.265）客户端整合包 v4（优化版）。
+
+            内容：服务端配套客户端 mod（TaCZ / Alex's Mobs / 农夫乐事 / Sophisticated /
+            Claim My Land 等）+ 25 个客户端优化 mod（Sodium / Lithium / Iris / JEI / Jade /
+            Xaero 地图等）+ codxlib、economycraft 补依赖 + 旧版客户端服务器列表（servers.dat）。
+
+            安装：把 .mrpack 拖入 PCL2 / Modrinth App / Prism / HMCL 自动安装；
+            分发包另含旧版客户端 PCL2 与说明。
+
+            注意：本版暂不含“匠魂移植”（其 1.5.0 与 NeoForge 21.1.265 存在进服兼容问题，修复后另行更新）。
+          files: |
+            dist/EZ-MS-1.21.1-client-*.mrpack
+            dist/EZ-MS-client-*.zip
+            dist/*.sha256
+          fail_on_unmatched_files: true
