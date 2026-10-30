@@ -1,0 +1,156 @@
+{
+  "game": "1.21.1",
+  "neoforge": "21.1.265",
+  "generated": "2026-10-30T03:48:59.736Z",
+  "note": "EZ-MS 1.21.1 客户端必备 mod（client_side=required）。解压后把 mods 文件夹内容放进 1.21.1 NeoForge 21.1.265 客户端的 mods 目录。",
+  "count": 21,
+  "items": [
+    {
+      "filename": "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+      "url": "https://cdn.modrinth.com/data/Q2OqKxDG/versions/FjTYILOi/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+      "sha1": "870521cfaa1a4cb6c830e2409e8b9e4cf179aff2",
+      "size": 98641,
+      "source": "modrinth"
+    },
+    {
+      "filename": "FarmersDelight-1.21.1-1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/XTVZDOol/FarmersDelight-1.21.1-1.3.4.jar",
+      "sha1": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657",
+      "size": 3160490,
+      "source": "modrinth"
+    },
+    {
+      "filename": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/S2TfWrZR/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "sha1": "e3d4bb80a06f619be989ab529d0cd4e33e076943",
+      "size": 90717,
+      "source": "modrinth"
+    },
+    {
+      "filename": "NeoForge-Version-Serene Seasons Plus-1.21.1-5.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/4Al4H3t9/versions/Z7VKF9c6/NeoForge-Version-Serene%20Seasons%20Plus-1.21.1-5.2.1.jar",
+      "sha1": "70d2771a8242d9fce0f51560bb40ee7dafbe1e29",
+      "size": 427252,
+      "source": "modrinth"
+    },
+    {
+      "filename": "SereneSeasons-neoforge-1.21.1-10.1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/e0bNACJD/versions/pHEgQQUE/SereneSeasons-neoforge-1.21.1-10.1.0.9.jar",
+      "sha1": "6b98eb4e64344bb8aba424187ed08bf04e59dccf",
+      "size": 163020,
+      "source": "modrinth"
+    },
+    {
+      "filename": "TinkersConstruct-Unofficial-Port-1.21.1-1.5.0-NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/3xgZFdrY/versions/74WNtrx7/TinkersConstruct-Unofficial-Port-1.21.1-1.5.0-NeoForge.jar",
+      "sha1": "f13f00e8caf377307aba564598e5bdea5603b81d",
+      "size": 26259698,
+      "source": "modrinth"
+    },
+    {
+      "filename": "adorabuild-structures-2.11.0-neoforge-1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/rYlnn25U/versions/l7GS6bZj/adorabuild-structures-2.11.0-neoforge-1.21.3.jar",
+      "sha1": "21d572284bb67014b1df5cdeb66acd04c2c17ef3",
+      "size": 657734,
+      "source": "modrinth"
+    },
+    {
+      "filename": "aerialhell-0.7.8_neoforge1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hvaVU41U/versions/Ml72cVLB/aerialhell-0.7.8_neoforge1.21.1.jar",
+      "sha1": "5f4e3d8f0d9acd3654107a691251ad9b1d3c6e43",
+      "size": 74849515,
+      "source": "modrinth"
+    },
+    {
+      "filename": "alexsmobs-2.2.4-neoforge+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/kYIaHHfw/versions/9yycc4XZ/alexsmobs-2.2.4-neoforge%2B1.21.1.jar",
+      "sha1": "9e7c7e11be880cd6106819f6c7bed829e45b5754",
+      "size": 27466197,
+      "source": "modrinth"
+    },
+    {
+      "filename": "betterdays-1.21.1-3.3.6.3-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/tPLE214j/versions/Ho93yCC3/betterdays-1.21.1-3.3.6.3-NEOFORGE.jar",
+      "sha1": "0beeb796055f8abdebb9304fe26b655068a52a9c",
+      "size": 585998,
+      "source": "modrinth"
+    },
+    {
+      "filename": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/q2bV1Tm1/versions/lE9PF6Wp/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "sha1": "249a5f2ba43fd341d4a2831691c154d92aa5a12d",
+      "size": 23943105,
+      "source": "modrinth"
+    },
+    {
+      "filename": "easy_npc-neoforge-1.21.1-7.17.1.jar",
+      "url": "https://cdn.modrinth.com/data/Epm6R3P2/versions/QyvBBoEd/easy_npc-neoforge-1.21.1-7.17.1.jar",
+      "sha1": "dbe3e7ff4b0a48e63fe8a28a2330180d77194d39",
+      "size": 3038455,
+      "source": "modrinth"
+    },
+    {
+      "filename": "geckolib-neoforge-1.21.1-4.9.3.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/Grwn5rUB/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac",
+      "size": 634531,
+      "source": "modrinth"
+    },
+    {
+      "filename": "sit-1.21.1-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/VKXzIykF/versions/DpfxOIrO/sit-1.21.1-1.4.jar",
+      "sha1": "5e9b0c4ee084770f8757bf53c2ecae19d382f7ed",
+      "size": 14031,
+      "source": "modrinth"
+    },
+    {
+      "filename": "sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/7V3OGECb/sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+      "sha1": "8e7edebc4182974d4371499953a6f41f6b45a7b1",
+      "size": 1256228,
+      "source": "modrinth"
+    },
+    {
+      "filename": "sophisticatedcore-1.21.1-1.5.19.2434.jar",
+      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/p1iOw2RH/sophisticatedcore-1.21.1-1.5.19.2434.jar",
+      "sha1": "f0d0fc6d3d8738a4c7a2ff79eaf59bac894d3fd1",
+      "size": 1820184,
+      "source": "modrinth"
+    },
+    {
+      "filename": "storagedelight-26.09.17-1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/LTTvOp5L/versions/7I2UUB9l/storagedelight-26.09.17-1.21-neoforge.jar",
+      "sha1": "1efd4c49d6f285001dae886c69fee72cd97f9945",
+      "size": 837755,
+      "source": "modrinth"
+    },
+    {
+      "filename": "tacz-neoforge-1.21.1-1.1.8-hotfix-r7.jar",
+      "url": "https://cdn.modrinth.com/data/OypNE65K/versions/62q6mB5Q/tacz-neoforge-1.21.1-1.1.8-hotfix-r7.jar",
+      "sha1": "c6ef4976de69a46c4e267bd7f91c730d2dc43a4e",
+      "size": 57247579,
+      "source": "modrinth"
+    },
+    {
+      "filename": "spudaciousshops-1.9.10.jar",
+      "url": "https://edge.forgecdn.net/files/8404/840/spudaciousshops-1.9.10.jar",
+      "sha1": "",
+      "size": 920602,
+      "source": "curseforge"
+    },
+    {
+      "filename": "architectury-13.0.11-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar",
+      "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+      "size": 584734,
+      "source": "modrinth"
+    },
+    {
+      "filename": "gaboulibs-neoforge-1.9.jar",
+      "url": "https://edge.forgecdn.net/files/8774/265/gaboulibs-neoforge-1.9.jar",
+      "sha1": "",
+      "size": 31997,
+      "source": "curseforge"
+    }
+  ]
+}

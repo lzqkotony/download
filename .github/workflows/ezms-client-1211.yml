@@ -1,0 +1,49 @@
+name: EZ-MS 1.21.1 Client Mods
+
+on:
+  push:
+    tags:
+      - 'ezms-client-1.21.1-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build client mods pack
+        run: python3 ezms/build_client_mods_1.21.1.py "${GITHUB_REF_NAME}"
+
+      - name: Show output
+        run: |
+          ls -la build/
+          cat build/*.sha256
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: EZ-MS 1.21.1 客户端必备 Mod ${{ github.ref_name }}
+          body: |
+            EZ-MS 官方服务器（Minecraft 1.21.1 + NeoForge 21.1.265）客户端“必备”模组包。
+
+            使用：解压后把 mods 文件夹内所有 .jar 复制到 1.21.1 NeoForge 客户端 mods 目录。
+            需要先安装 NeoForge 21.1.265（Minecraft 1.21.1）。
+
+            包含 content/机制类客户端必需 mod（TaCZ、Alex's Mobs、匠魂移植、农夫乐事、
+            Aerial Hell、Sophisticated 系列、GeckoLib、Architectury 等），
+            不含服务端专用 mod（EasyLogin / EasyBot / ezmsproxy 等）。
+          files: |
+            build/EZ-MS-client-mods-1.21.1-*.zip
+            build/*.sha256
+          fail_on_unmatched_files: true
