@@ -1,0 +1,44 @@
+﻿name: EZ-MS 1.21.1 Client v5 (slim, no TaCZ/trek/ColdSweat)
+
+on:
+  push:
+    tags:
+      - 'ezms-v5-client-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show files
+        run: ls -la ezms/v5-pack/dist/
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: EZ-MS 1.21.1 客户端 v5（精简版）
+          body: |
+            EZ-MS 官方服务器（Minecraft 1.21.1 + NeoForge 21.1.265）客户端整合包 v5。
+
+            本版变更（与服务端同步）：
+            - 移除 TaCZ 枪械（tacz-1.1.8）
+            - 移除 trek
+            - 移除 ColdSweat（冷汗，客户端专用，服务端无此 mod）
+
+            其余内容：匠魂 TinkersConstruct 3.13.2 / Mantle / BetterEnd / bclib / worldweaver /
+            wunderlib / ThirstWasTaken2 / Alex's Mobs / 农夫乐事 / Serene Seasons / JEI / Sodium /
+            Iris / Xaero 地图等，与服务端 mod 同步。
+
+            安装：把 .mrpack 拖入 PCL2 / Modrinth App / Prism / HMCL 自动安装；
+            分发包 zip 内含 PCL2 启动器与 mrpack。
+          files: |
+            ezms/v5-pack/dist/EZ-MS-client-20261103.zip
+            ezms/v5-pack/dist/EZ-MS-1.21.1-client-20261103-v5.mrpack
+          fail_on_unmatched_files: true
